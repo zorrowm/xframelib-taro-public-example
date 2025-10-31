@@ -1,0 +1,11 @@
+// 定义全局变量、样式模板
+
+$CDNUrl:'https://zorrowm.github.io/weixin/taian';
+
+// 统一定义图片背景样式
+@mixin bgImage($imgpath)
+{
+    background-image: url($CDNUrl+$imgpath);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

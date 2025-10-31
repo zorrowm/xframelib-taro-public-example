@@ -1,0 +1,15 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "taian_app",
+  "description": " 基于Taro、Vue3和Webpack开发模板",
+  "appid": "wxfc6db05a192af997",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": true
+  },
+  "compileType": "miniprogram"
+}

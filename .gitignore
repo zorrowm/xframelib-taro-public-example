@@ -1,0 +1,13 @@
+dist/
+deploy_versions/
+.temp/
+.rn_temp/
+node_modules/
+.DS_Store
+.swc
+workers-vite/node_modules/
+workers-vite/dist/
+workers-vite/pnpm-lock.yaml
+pnpm-lock.yaml
+
+
