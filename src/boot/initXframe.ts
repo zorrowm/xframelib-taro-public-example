@@ -6,7 +6,7 @@ import { message } from "src/utils/MessageNotify";
 import { init, SvgIconWeb } from "xframelib-taro";
 import "../assets/SysConfig.js";
 //UnoCSS 必须得有
-import "uno.css";
+// import "uno.css";
 
 export default function initBoot(app: App) {
   //初始化Xframelib

@@ -6,7 +6,7 @@ import NutUIResolver from "@nutui/auto-import-resolver";
 import Components from "unplugin-vue-components/webpack";
 import path from "path";
 import AutoImport from "unplugin-auto-import/webpack";
-import UnoCSS from "@unocss/webpack";
+// import UnoCSS from "@unocss/webpack";
 const BundleAnalyzerPlugin =
   require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 // https://taro-docs.jd.com/docs/next/config#defineconfig-辅助函数
@@ -141,7 +141,7 @@ export default defineConfig<"webpack5">(async (merge, { command, mode }) => {
           })
         );
         // chain.resolve.alias.set('browser-lib', 'false');
-        chain.plugin("unocss").use(UnoCSS());
+        // chain.plugin("unocss").use(UnoCSS());
         // 排除 NutUI 图标字体文件
         chain.module
           .rule("fonts")
